@@ -9,3 +9,5 @@ pElm.textContent="HTML fra JavaScript"
 
 rootDOM.append(pElm)
 
+// øvelse 4
+pElm.classList.add("highlight")
