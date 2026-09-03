@@ -11,3 +11,9 @@ rootDOM.append(pElm)
 
 // øvelse 4
 pElm.classList.add("highlight")
+
+// øvelse 5
+let imgElm = document.createElement("img")
+imgElm.setAttribute("src","https://placehold.co/300")
+
+rootDOM.append(imgElm)
