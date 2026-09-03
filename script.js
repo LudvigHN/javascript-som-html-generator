@@ -1,3 +1,3 @@
-let rootDOM = document.getElementById("root")
+let rootDOM = document.querySelector("#root")
 
 console.log(rootDOM);
