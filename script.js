@@ -15,5 +15,6 @@ pElm.classList.add("highlight")
 // øvelse 5
 let imgElm = document.createElement("img")
 imgElm.setAttribute("src","https://placehold.co/300")
+imgElm.setAttribute("alt","placeholder image")
 
 rootDOM.append(imgElm)
