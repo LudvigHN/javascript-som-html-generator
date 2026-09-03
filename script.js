@@ -18,3 +18,15 @@ imgElm.setAttribute("src","https://placehold.co/300")
 imgElm.setAttribute("alt","placeholder image")
 
 rootDOM.append(imgElm)
+// øvelse 5
+
+let artElm = document.createElement("article")
+let artH1Elm = document.createElement("h1")
+let artParagraphElm = document.createElement("p")
+
+artH1Elm.textContent = "this is a header"
+artParagraphElm = "This is a paragraph"
+
+artElm.append(artH1Elm,artParagraphElm)
+
+rootDOM.append(artElm)
