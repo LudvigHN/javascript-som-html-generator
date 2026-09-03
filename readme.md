@@ -1,0 +1,1 @@
+# Practice for generating HTML using JavaScript
